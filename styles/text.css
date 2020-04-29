@@ -1,10 +1,8 @@
-
-
 .main-text-wrapper {
     position: absolute;
-    top: 200px;
+    top: 130px;
     right: 50px;
-    width:60%;
+    width: 60%;
 }
 
 .main-text {
@@ -15,7 +13,6 @@
     text-transform: uppercase;
     color: #005CA8;
     text-align: right;
-    
     font-size: 34px;
     line-height: 85px;
 }
@@ -24,15 +21,28 @@
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 900;
-    /* text-align: right; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #005CA8;
     text-align: right;
-
     line-height: 85px;
     font-size: 72px;
 }
+
+.services-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* color:red; */
+    color: #FFD32C;
+}
+
+
 
 /* 
 @media (max-width: 700px) {
