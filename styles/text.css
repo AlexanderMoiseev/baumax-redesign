@@ -1,0 +1,67 @@
+
+
+.main-text-wrapper {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    width:60%;
+}
+
+.main-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #005CA8;
+    text-align: right;
+    
+    font-size: 34px;
+    line-height: 85px;
+}
+
+.main-text2 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    /* text-align: right; */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #005CA8;
+    text-align: right;
+
+    line-height: 85px;
+    font-size: 72px;
+}
+
+/* 
+@media (max-width: 700px) {
+	
+	.lucky-text {
+		display:block;
+    }
+    
+	.email-icon {
+		width:40%;
+
+	}
+	
+	.main-text {
+	    font-size: 0.8em;
+	}
+	
+	
+	.gamma {
+	    font-size: 24px;
+	}	
+	
+	.gamma-small{
+	   font-size:13px;
+	   line-height:21px;	
+	}
+
+	
+	.column {
+		flex-direction:column;
+	}
+} */
