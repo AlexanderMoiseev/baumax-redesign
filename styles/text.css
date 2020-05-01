@@ -42,7 +42,18 @@
     color: #FFD32C;
 }
 
-
+.services-desc {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
 
 /* 
 @media (max-width: 700px) {

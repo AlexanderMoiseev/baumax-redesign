@@ -31,67 +31,49 @@ body {
     background-image: url("../images/blue-bg-edited.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    
     width: 100%;
-    /* height: 100%; */
-    /* min-height:1200px; */ 
-    height:1300px;
+   
+    padding-bottom: 25em ;
+    /* height:1300px; */
     position: relative;
     z-index: -1;
     margin-top:calc(-120px - 10vw);
     /* transform: translateY(calc(-120px - 10vw)); */
-}
 
-/* @media (min-width: 1840px) {
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%); */
+
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+    /* clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%); */
+  
+
+}
+@media (max-width: 660px) {
 	.services {
-        min-height:2000px;
-        transform: translateY(calc(-140px - 10vw));
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     }
-}  */
+} 
 
-@media (min-width: 1540px) {
+@media (min-width: 1400px) {
 	.services {
-        height:1500px;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        -webkit-clip-path:polygon(0 0, 100% 0, 100% 80%, 0 100%);
     }
-}
-@media (min-width: 1850px) {
-	.services {
-        height:1800px;
-    }
-}
+} 
 
-@media (min-width: 2230px) {
-	.services {
-        height:2100px;
-    }
-}
 
-.icons-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border: 3px solid green;
-    /* height: 100%; */
-}
-
-.icon {
-    width: 204px;
-    margin-left: 70px;
-    height: 173px;
-    background-image: url("../images/block-icon.svg");
-}
-
-.test {
-    height: 50px;
-    border: 3px solid black;
-    background-color: blueviolet;
-}
 
 .services-content {
     padding-top:calc(150px + 10vw);
     /* transform: translateY(calc(150px + 10vw)); */
     border: 3px solid red;
+}
+
+
+.advantages {
+    height: 700px;
+    width: 100%;
 }
 
 
@@ -102,3 +84,15 @@ body {
     margin: 0 auto;
     position: relative;
 }
+
+
+
+
+
+.test {
+    height: 50px;
+    border: 3px solid black;
+    background-color: blueviolet;
+}
+
+

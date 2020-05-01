@@ -1,0 +1,16 @@
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 3px solid green;
+    /* height: 100%; */
+}
+
+.icon {
+    width: 204px;
+    margin-left: 70px;
+    height: 173px;
+    background-image: url("../images/service-block-icon.svg");
+}
