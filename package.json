@@ -1,0 +1,26 @@
+{
+  "name": "baumax-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss styles/**/*.css -d build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderMoiseev/baumax-redesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderMoiseev/baumax-redesign/issues"
+  },
+  "homepage": "https://github.com/AlexanderMoiseev/baumax-redesign#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.27"
+  },
+  "dependencies": {}
+}

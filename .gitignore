@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+
+# built assets
+build
+
+# Optional npm cache directory
+.npm
+
+code.zip
+build.zip
+
+.vscode
