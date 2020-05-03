@@ -110,7 +110,6 @@ body {
     position: relative;
 }
 
-
 .advantages-container {
     max-width: 1040px;
     width: 100%;
@@ -125,6 +124,22 @@ body {
     background-color: blueviolet;
 }
 
-/* .callback-form {
-    background-image: url("../images/callback-form.svg");
-} */
+
+.callback-form {
+    /* background-image: url("../images/callback-form.svg"); */
+    width: 471px;
+    height: 115px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin:0 auto;
+}
+
+.callback-form::before {
+    content: url("../images/lift.svg");;
+    /* background-image: url("../images/lift.svg"); */
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 184px;
+    margin-left:-100px;
+}
+

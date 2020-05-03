@@ -10,23 +10,27 @@ ymaps.ready(function () {
         }),
 
         // Создаём макет содержимого.
-
+        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<div style="color: black; width: 200px; font-weight: bold; font-size: 20px; background-color:#E7E7E7;">$[properties.iconContent]</div>'
+        ),
+        
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            hintContent: '<b>Ясенева улица, 5к1 </b>',
-            balloonContent: '<b>Ясенева улица, 5к1 </b>'
+            iconContent: 'Ясенева улица, 5к1 '
+
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
-            iconLayout: 'default#image',
+            iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
             iconImageHref: 'images/marker.svg',
             // Размеры метки.
             iconImageSize: [40, 52],
+            iconContentOffset: [40, 10],
+            iconContentLayout: MyIconContentLayout ,
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
             iconImageOffset: [-5, -38]
         })
-
         ;
 
     myMap.geoObjects
