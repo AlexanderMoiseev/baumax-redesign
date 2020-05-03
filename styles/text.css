@@ -52,37 +52,27 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
-    
 }
 
-/* 
-@media (max-width: 700px) {
-	
-	.lucky-text {
-		display:block;
-    }
-    
-	.email-icon {
-		width:40%;
+.advantages-text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #005CA8;
+}
 
-	}
-	
-	.main-text {
-	    font-size: 0.8em;
-	}
-	
-	
-	.gamma {
-	    font-size: 24px;
-	}	
-	
-	.gamma-small{
-	   font-size:13px;
-	   line-height:21px;	
-	}
-
-	
-	.column {
-		flex-direction:column;
-	}
-} */
+.advantages-desc {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #005CA8;
+}

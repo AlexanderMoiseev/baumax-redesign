@@ -3,10 +3,10 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 }
 
-.icon-container {
+.service-icon-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -14,16 +14,6 @@
     height: 254px;
     flex-direction: column;
     margin: 30px;
-
-
-    /* margin: 20px 0; */
-    /* width: 204px;
-    height: 173px; */
-    /* max-height: 200px; */
-    /* text-align: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; */
 }
 
 .icon {
@@ -32,7 +22,12 @@
     background-repeat: no-repeat;
 }
 
+.icons-container p {
+    margin-top: 20px;
+    height: 20%;
+}
 
+/* services */
 .block-icon {
     background-image: url("../images/services-icons/block-icon.svg");
     width: 204px;
@@ -71,7 +66,39 @@
 }
 
 
-.icons-container p {
-    margin-top: 20px;
-    height: 20%;
+/* advantages */
+.advantage-icon {
+    width: 136px;
+    height: 136px;
+}
+.advantage-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 224px;
+    height: 200px;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.first-icon {
+    background-image: url("../images/advantages-icons/1.svg");
+}
+.second-icon {
+    background-image: url("../images/advantages-icons/2.svg");
+}
+.third-icon {
+    background-image: url("../images/advantages-icons/3.svg");
+    
+}
+.fourth-icon {
+    background-image: url("../images/advantages-icons/4.svg");
+   
+}
+.fifth-icon {
+    background-image: url("../images/advantages-icons/5.svg");
+    
+}
+.sixth-icon {
+    background-image: url("../images/advantages-icons/6.svg");
 }
