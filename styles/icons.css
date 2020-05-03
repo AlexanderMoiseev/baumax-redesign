@@ -1,4 +1,3 @@
-
 .icons-container {
     display: flex;
     flex-direction: row;
@@ -7,9 +6,72 @@
     border: 3px solid green;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 258px;
+    height: 254px;
+    flex-direction: column;
+    margin: 30px;
+
+
+    /* margin: 20px 0; */
+    /* width: 204px;
+    height: 173px; */
+    /* max-height: 200px; */
+    /* text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; */
+}
+
 .icon {
-    width: 204px;
-    margin-left: 70px;
-    height: 173px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.block-icon {
     background-image: url("../images/services-icons/block-icon.svg");
+    width: 204px;
+    height: 173px;
+}
+.bitum-icon {
+    background-image: url("../images/services-icons/bitum.svg");
+    width: 192px;
+    height: 140px;
+}
+.osp-icon {
+    background-image: url("../images/services-icons/osp.svg");
+    width: 207px;
+    height: 115px;
+}
+.mixture-icon {
+    background-image: url("../images/services-icons/mixture.svg");
+    width: 188px;
+    height: 103px;
+}
+.cement-icon {
+    background-image: url("../images/services-icons/cement.svg");
+    width: 208px;
+    height: 114px;
+}
+.strucco-icon {
+    background-image: url("../images/services-icons/strucco.svg");
+    width: 175px;
+    height: 145px;
+}
+
+.thermal-insulation-icon {
+    background-image: url("../images/services-icons/thermal-insulation.svg");
+    width: 137px;
+    height: 111px;
+}
+
+
+.icons-container p {
+    margin-top: 20px;
+    height: 20%;
 }

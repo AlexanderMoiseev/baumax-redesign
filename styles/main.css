@@ -3,17 +3,19 @@
     margin: 0;
 }
 
+
 body {
     position: relative;
 }
 
+.logo {
+    width: 117px;
+    height: 80px;
+    background: url("../images/logo.svg");
+    position: absolute;
+    top:50px;
+    left:50px;
 
-#map {
-    width: 100%; 
-    height: 400px; 
-    padding: 0;
-     margin: 0;
-    border:3px solid red;
 }
 
 .main {
@@ -63,10 +65,39 @@ body {
     }
 }
 
+
+.callback {
+    background-image: url("../images/blue-bg-services.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25em;
+    margin-bottom: -200px;
+    position: relative;
+    z-index: 10;
+    /* transform: translateY(calc(-120px - 10vw)); */
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+@media (max-width: 660px) {
+    .callback {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+}
+
+@media (min-width: 1400px) {
+    .callback {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    }
+}
+
+
+
 .services-content {
     padding-top: calc(150px + 10vw);
     border: 3px solid red;
 }
+
 
 .advantages {
     height: 700px;
@@ -82,7 +113,13 @@ body {
 }
 
 .test {
-    height: 50px;
+    height: 500px;
     border: 3px solid black;
     background-color: blueviolet;
 }
+
+
+
+/* .callback-form {
+    background-image: url("../images/callback-form.svg");
+} */
