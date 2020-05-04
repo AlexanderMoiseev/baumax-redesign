@@ -3,68 +3,6 @@
         clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     }
-}
-
-@media (min-width: 1400px) {
-    .services {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    }
-}
-
-@media (max-width: 1400px) {
-    .main-text-wrapper {
-        top:140px;
-    }
-    .main-text2 {
-        font-size: 54px;
-        letter-spacing:0em;
-        line-height: 65px;
-    }
-    .main-text {
-        font-size: 28px;
-        line-height: 55px;
-        letter-spacing:0em;
-    }
-
-    /* .main-text2 {
-        font-size: 36px;
-        letter-spacing:0em;
-        line-height: 55px;
-    }
-    .main-text {
-        font-size: 17px;
-        line-height: 35px;
-        letter-spacing:0em;
-    } */
-    .services {
-        margin-top: calc(-120px - 16vw);
-        padding-bottom: 10em;
-    }
-
-    .services-content {
-        padding-top: calc(150px + 17vw);
-    }
-
-    .callback {
-        padding-bottom: 5em;
-    }
-    .callback-content {
-        padding-top: calc(130px + 5vw);
-    }
-    .advantages {
-        margin-top: -50px;
-    }
-    .service-icon-container {
-        margin:15px;
-    }
-
-    .service-icon-container {
-        margin:15px;
-    }
-}
-
-@media (max-width: 660px) {
     .callback {
         clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
@@ -78,3 +16,60 @@
     }
 }
 
+@media (min-width: 1400px) {
+    .services {
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    }
+}
+
+@media (max-width: 1400px) {
+    .main-text-wrapper {
+        top: 140px;
+    }
+    .main-text2 {
+        font-size: 54px;
+        letter-spacing: 0em;
+        line-height: 65px;
+    }
+    .main-text {
+        font-size: 28px;
+        line-height: 55px;
+        letter-spacing: 0em;
+    }
+    .services {
+        margin-top: calc(-120px - 16vw);
+        padding-bottom: 10em;
+    }
+    .services-content {
+        padding-top: calc(150px + 17vw);
+    }
+    .callback {
+        padding-bottom: 5em;
+    }
+    .callback-content {
+        padding-top: calc(130px + 5vw);
+    }
+    .advantages {
+        margin-top: -50px;
+    }
+    .service-icon-container {
+        margin: 15px;
+    }
+    .service-icon-container {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-text2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .main-text {
+        font-size: 12px;
+        line-height: 14px;
+
+        
+    }
+}
