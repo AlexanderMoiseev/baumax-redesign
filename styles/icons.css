@@ -20,11 +20,12 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
+    transition: all .4s ease;
 }
 .service-icon:hover {
     -webkit-transform:scale(1.1);
     transform:scale(1.1); 
-    transition: all .3s ease;
+    transition: all .4s ease;
 }
 .icons-container p {
     margin-top: 20px;
@@ -75,12 +76,13 @@
     background-repeat: no-repeat;
     width: 136px;
     height: 136px;
+    transition: all .4s ease;
 }
 .advantage-icon:hover {
     -webkit-transform:scale(1.1);
     transform:scale(1.1); 
     opacity: 0.9;
-    transition: all .3s ease;
+    transition: all .4s ease;
 }
 .advantage-icon-container {
     display: flex;
@@ -118,7 +120,5 @@
 
 @media (max-width: 1400px) {
     
-    .service-icon-container {
-        margin:15px;
-    }
+  
 }

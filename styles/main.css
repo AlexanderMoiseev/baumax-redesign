@@ -28,6 +28,10 @@ body {
     z-index:2;
 }
 
+.mtop {
+    margin-top: 10em;
+    /* padding-bottom: 10em; */
+}
 
 /* transition: all .33s ease; */
 
@@ -72,12 +76,7 @@ body {
     position: relative;
 }
 
-@media (max-width: 660px) {
-    .services {
-        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-    }
-}
+
 
 .services-content {
     padding-top: calc(150px + 10vw);
@@ -85,18 +84,12 @@ body {
 
 
 
-@media (min-width: 1400px) {
-    .services {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    }
-}
 
 .callback {
     background-image: url("../images/blue-bg-services.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 25em;
+    /* padding-bottom: 10em; */
     position: relative;
     z-index: 1;
     /* transform: translateY(calc(-120px - 10vw)); */
@@ -202,43 +195,3 @@ input:focus {
 input[type=text]:focus {
     border-radius: 20.5px 0px 0px 20.5px;
 }
-
-
-@media (max-width: 1400px) {
-    .services {
-        margin-top: calc(-120px - 16vw);
-        padding-bottom: 10em;
-    }
-
-    .services-content {
-        padding-top: calc(150px + 17vw);
-    }
-
-    .callback {
-        padding-bottom: 10em;
-    }
-    .callback-content {
-        padding-top: calc(130px + 5vw);
-    }
-    .advantages {
-        margin-top: -50px;
-    }
-    .service-icon-container {
-        margin:15px;
-    }
-}
-
-@media (max-width: 660px) {
-    .callback {
-        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-    }
-}
-
-@media (min-width: 1400px) {
-    .callback {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    }
-}
-
