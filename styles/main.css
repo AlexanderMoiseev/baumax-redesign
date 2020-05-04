@@ -12,8 +12,10 @@ body {
     height: 80px;
     background: url("../images/logo.svg");
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 50px;
+    z-index:3;
+    cursor: pointer;
 }
 
 .main {
@@ -21,7 +23,29 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 700px;
+    position: relative;
     height: 80vh;
+    z-index:2;
+}
+
+
+/* transition: all .33s ease; */
+
+.company-phone {
+    margin-top:45px;
+    width: 195px;
+    height: 41px;
+    line-height: 41px;
+    border-radius: 37.5px;
+    float: right;
+    background: #005CA8;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .yellow-clip {
@@ -41,10 +65,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 20em;
+    z-index: 1;
     margin-top: calc(-120px - 10vw);
     /* transform: translateY(calc(-120px - 10vw)); */
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
-    z-index: -1;
     position: relative;
 }
 
@@ -54,6 +78,12 @@ body {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     }
 }
+
+.services-content {
+    padding-top: calc(150px + 10vw);
+}
+
+
 
 @media (min-width: 1400px) {
     .services {
@@ -67,33 +97,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 25em;
-    margin-bottom: -200px;
     position: relative;
-    z-index: 10;
+    z-index: 1;
     /* transform: translateY(calc(-120px - 10vw)); */
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
 }
 
-@media (max-width: 660px) {
-    .callback {
-        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-    }
-}
-
-@media (min-width: 1400px) {
-    .callback {
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    }
-}
-
-.services-content {
-    padding-top: calc(150px + 10vw);
-}
 
 .callback-content {
-    padding-top: calc(150px + 5vw);
+    padding-top: calc(250px + 5vw);
     border: 3px solid red;
 }
 
@@ -190,3 +202,43 @@ input:focus {
 input[type=text]:focus {
     border-radius: 20.5px 0px 0px 20.5px;
 }
+
+
+@media (max-width: 1400px) {
+    .services {
+        margin-top: calc(-120px - 16vw);
+        padding-bottom: 10em;
+    }
+
+    .services-content {
+        padding-top: calc(150px + 17vw);
+    }
+
+    .callback {
+        padding-bottom: 10em;
+    }
+    .callback-content {
+        padding-top: calc(130px + 5vw);
+    }
+    .advantages {
+        margin-top: -50px;
+    }
+    .service-icon-container {
+        margin:15px;
+    }
+}
+
+@media (max-width: 660px) {
+    .callback {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+}
+
+@media (min-width: 1400px) {
+    .callback {
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    }
+}
+

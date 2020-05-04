@@ -1,6 +1,6 @@
 .main-text-wrapper {
     position: absolute;
-    top: 130px;
+    top: 100px;
     right: 50px;
     width: 60%;
 }
@@ -77,7 +77,7 @@
     color: #005CA8;
 }
 
-.callback-text {
+.contact-text {
     margin-top: 40px;
     margin-bottom: 30px;
     font-family: 'Rubik', sans-serif;
