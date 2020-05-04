@@ -126,19 +126,24 @@
                 <div class="services-text">заинтересовали<br>наши преимущества?</div>
                 <p class="callback-text">
                     Оставьте свой <span class="phone-text">номер телефона</span> <br>
-                        для первого шага к сотрудничеству
+                    для первого шага к сотрудничеству
                 </p>
 
                 <div class="callback-form">
                     <div class="lift"> </div>
-
-                    <div class="phone-form"></div>
-                    <div class="send-button"> Отправить </div>
+                    <form method="POST" action="https://formspree.io/moiseevalexandr1@gmail.com">
+                        <!-- <input type="hidden" name="_next" value="/thankyou"> -->
+                        <div class="input-container">
+                            <input type="text" class="phone-form phone-number" name="Phone"
+                                placeholder="+7 XXX - XXX - XX - XX" required>
+                            <input type='submit' class="send-button send-text" value='Отправить'>
+                        </div>
+                    </form>
                 </div>
-                
-
+                </form>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- <div class="test">Block after the blue b22g </div> -->

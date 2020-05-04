@@ -43,7 +43,7 @@ body {
     padding-bottom: 20em;
     margin-top: calc(-120px - 10vw);
     /* transform: translateY(calc(-120px - 10vw)); */
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
     z-index: -1;
     position: relative;
 }
@@ -57,8 +57,8 @@ body {
 
 @media (min-width: 1400px) {
     .services {
-        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     }
 }
 
@@ -71,7 +71,7 @@ body {
     position: relative;
     z-index: 10;
     /* transform: translateY(calc(-120px - 10vw)); */
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
 }
 
 @media (max-width: 660px) {
@@ -83,8 +83,8 @@ body {
 
 @media (min-width: 1400px) {
     .callback {
-        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     }
 }
 
@@ -135,9 +135,6 @@ body {
     margin: 0 auto;
 }
 
-
-
-
 .lift {
     top: -35px;
     left: -25px;
@@ -148,21 +145,48 @@ body {
     margin-left: -100px;
 }
 
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
 .send-button {
     width: 150px;
     height: 41px;
     background: #005CA8;
-    color: 005CA8;
     border: 1px solid #005CA8;
     border-radius: 0px 20.5px 20.5px 0px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    opacity: 0.7;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .phone-form {
     width: 209px;
     height: 41px;
-    left: 547px;
-    top: 2976px;
     background: #F3F1F2;
     border: 1px solid #C4C4C4;
+    border-radius: 20.5px 0px 0px 20.5px;
+}
+
+.phone-form:hover {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: 1px solid #005CA8;
+}
+
+*:focus {
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #005CA8;
+}
+
+input[type=text]:focus {
     border-radius: 20.5px 0px 0px 20.5px;
 }
