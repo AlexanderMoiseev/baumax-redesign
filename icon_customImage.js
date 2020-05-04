@@ -11,11 +11,11 @@ ymaps.ready(function () {
 
         // Создаём макет содержимого.
         MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<div style="color: black; width: 200px; font-weight: bold; font-size: 20px; background-color:#E7E7E7;">$[properties.iconContent]</div>'
+            '<div style="color: black; width: 210px; font-weight: bold; font-size: 20px; color:#005CA8; background-color:#D8D8D8;">$[properties.iconContent]</div>'
         ),
         
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            iconContent: 'Ясенева улица, 5к1 '
+            iconContent: 'Ясеневая улица, 5к1 '
 
         }, {
             // Опции.

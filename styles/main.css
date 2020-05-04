@@ -124,22 +124,45 @@ body {
     background-color: blueviolet;
 }
 
-
 .callback-form {
+    display: flex;
+    align-items: center;
     /* background-image: url("../images/callback-form.svg"); */
     width: 471px;
     height: 115px;
     background: #FFFFFF;
     border-radius: 14px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.callback-form::before {
-    content: url("../images/lift.svg");;
-    /* background-image: url("../images/lift.svg"); */
+
+
+
+.lift {
+    top: -35px;
+    left: -25px;
+    content: url("../images/lift.svg");
     background-repeat: no-repeat;
     width: 174px;
     height: 184px;
-    margin-left:-100px;
+    margin-left: -100px;
 }
 
+.send-button {
+    width: 150px;
+    height: 41px;
+    background: #005CA8;
+    color: 005CA8;
+    border: 1px solid #005CA8;
+    border-radius: 0px 20.5px 20.5px 0px;
+}
+
+.phone-form {
+    width: 209px;
+    height: 41px;
+    left: 547px;
+    top: 2976px;
+    background: #F3F1F2;
+    border: 1px solid #C4C4C4;
+    border-radius: 20.5px 0px 0px 20.5px;
+}
