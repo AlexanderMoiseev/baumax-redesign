@@ -69,17 +69,61 @@
     .main-text {
         font-size: 12px;
         line-height: 14px;
-        
     }
 }
 
-
 @media (max-width: 600px) {
+    .main-text2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .main-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
     .logo {
-        width:59px;
-        height:40px;
+        width: 59px;
+        height: 40px;
         top: 0px;
         left: 0px;
     }
-   
+    .main-text-wrapper {
+        top: 90px;
+        right: 30px;
+    }
+    .company-phone {
+        margin-top: 15px;
+        width: 133px;
+        height: 29px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 29px;
+        background: #005CA8;
+    }
+    .main {
+        background: url("../images/mobile-main.svg");
+        /* background-size: contain; */
+        background-repeat: no-repeat;
+        /* min-height: 700px; */
+        position: relative;
+        /* height: 80vh; */
+        z-index: 2;
+    }
+    .services-text {
+        font-size: 30px;
+        line-height: 90px;
+        letter-spacing: 0.00em;
+    }
+    .advantages-text {
+        font-size: 30px;
+        line-height: 90px;
+        /* letter-spacing: 0.00em; */
+        line-height: 36px;
+        letter-spacing: 0.03em;
+    }
+    .services-content {
+        padding-top: 0;
+    }
+
+    
 }
