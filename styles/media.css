@@ -1,3 +1,4 @@
+/* clip-path */
 @media (max-width: 660px) {
     .services {
         clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
@@ -23,6 +24,7 @@
     }
 }
 
+/* max-width: 1400px */
 @media (max-width: 1400px) {
     .main-text-wrapper {
         top: 140px;
@@ -38,17 +40,20 @@
         letter-spacing: 0em;
     }
     .services {
-        margin-top: calc(-120px - 16vw);
+        /* margin-top: calc(-120px - 16vw); */
+        margin-top: calc(-360px );
         padding-bottom: 10em;
     }
     .services-content {
         padding-top: calc(150px + 17vw);
+        /* padding-top: calc(350px ); */
     }
     .callback {
         padding-bottom: 5em;
     }
     .callback-content {
         padding-top: calc(130px + 5vw);
+        /* padding-top: calc(130px ); */
     }
     .advantages {
         margin-top: -50px;
@@ -72,7 +77,9 @@
     }
 }
 
-@media (max-width: 600px) {
+
+/* max-width: 700px */
+@media (max-width: 700px) {
     .main-text2 {
         font-size: 24px;
         line-height: 28px;
@@ -109,6 +116,12 @@
         /* height: 80vh; */
         z-index: 2;
     }
+
+    .yellow-clip {
+        background-image: url("../images/yellow-clip-mobile.svg");
+        min-height:calc(50vh + 30vw);
+        height:calc(50vh + 30vw);
+    }
     .services-text {
         font-size: 30px;
         line-height: 90px;
@@ -121,14 +134,22 @@
         line-height: 36px;
         letter-spacing: 0.03em;
     }
-
     .services {
-        margin-top: calc(-850px - 10vw);
-        /* margin-top: 0px; */
+        margin-top: calc(-870px );
     }
-
     .services-content {
         padding-top: calc(450px + 10vw);
     }
-
 }
+
+/* @media screen and (max-width: 900px) and (min-width: 600px) {
+    div.example {
+      font-size: 50px;
+      padding: 50px;
+      border: 8px solid black;
+      background: yellow;
+    }
+  } */
+
+
+/* // 600 - 1400  */
