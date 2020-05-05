@@ -15,7 +15,7 @@ body {
     position: absolute;
     top: 30px;
     left: 50px;
-    z-index:3;
+    z-index: 3;
     cursor: pointer;
 }
 
@@ -26,25 +26,24 @@ body {
     min-height: 700px;
     position: relative;
     height: 80vh;
-    z-index:2;
+    z-index: 2;
 }
 
 .mtop {
-    margin-top: 10em;
+    margin-top: 8em;
     /* padding-bottom: 10em; */
 }
 
 /* transition: all .33s ease; */
 
 .company-phone {
-    margin-top:45px;
+    margin-top: 45px;
     width: 195px;
     height: 41px;
     line-height: 41px;
     border-radius: 37.5px;
     float: right;
     background: #005CA8;
-
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -77,26 +76,20 @@ body {
     position: relative;
 }
 
-
-
 .services-content {
     padding-top: calc(150px + 10vw);
 }
-
-
-
 
 .callback {
     background-image: url("../images/blue-bg-services.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* padding-bottom: 10em; */
+    padding-bottom: 10em;
     position: relative;
     z-index: 1;
     /* transform: translateY(calc(-120px - 10vw)); */
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
 }
-
 
 .callback-content {
     padding-top: calc(250px + 5vw);
@@ -131,8 +124,10 @@ body {
 }
 
 .callback-form {
+    position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     /* background-image: url("../images/callback-form.svg"); */
     width: 471px;
     height: 115px;
@@ -142,13 +137,13 @@ body {
 }
 
 .lift {
-    top: -35px;
-    left: -25px;
+    position: absolute;
+    left: -125px;
     content: url("../images/lift.svg");
     background-repeat: no-repeat;
     width: 174px;
     height: 184px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
 }
 
 .input-container {
