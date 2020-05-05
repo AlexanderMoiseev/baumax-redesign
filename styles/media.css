@@ -121,9 +121,14 @@
         line-height: 36px;
         letter-spacing: 0.03em;
     }
-    .services-content {
-        padding-top: 0;
+
+    .services {
+        margin-top: calc(-850px - 10vw);
+        /* margin-top: 0px; */
     }
 
-    
+    .services-content {
+        padding-top: calc(450px + 10vw);
+    }
+
 }
