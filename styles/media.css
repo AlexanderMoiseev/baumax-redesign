@@ -69,7 +69,17 @@
     .main-text {
         font-size: 12px;
         line-height: 14px;
-
         
     }
+}
+
+
+@media (max-width: 600px) {
+    .logo {
+        width:59px;
+        height:40px;
+        top: 0px;
+        left: 0px;
+    }
+   
 }
