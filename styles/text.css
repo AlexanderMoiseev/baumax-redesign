@@ -1,5 +1,6 @@
 .main-text-wrapper {
     position: absolute;
+    z-index: 3;
     top: 100px;
     right: 50px;
     width: 60%;
