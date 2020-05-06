@@ -28,6 +28,10 @@
 /* max-width: 1400px */
 
 @media (max-width: 1400px) {
+    /* .header-right-positioned {
+        margin-right: 17%;
+    } */
+
     .main-text-wrapper {
         top: 140px;
     }
@@ -101,13 +105,20 @@
         right: 30px;
     }
     .company-phone {
-        margin-top: 15px;
+        margin-top: 25px;
         width: 133px;
         height: 29px;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 29px;
         background: #005CA8;
+    }
+    
+    .header-right-positioned {
+        margin-right: 15%;
+    }
+    .menu-button-container {
+        top: 23px;
     }
     .main {
         transform: translateX(-25px);
@@ -188,7 +199,7 @@
     }
    
     .main-text-wrapper {
-        top:60px;
+        top:75px;
         right: 5px;
     }
 }
