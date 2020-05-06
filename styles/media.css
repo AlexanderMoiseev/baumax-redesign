@@ -110,7 +110,8 @@
         background: #005CA8;
     }
     .main {
-        background: url("../images/mobile-main.svg");
+        transform: translateX(-25px);
+        /* background: url("../images/mobile-main.svg"); */
         /* background-size: contain; */
         background-repeat: no-repeat;
         /* min-height: 700px; */
@@ -155,25 +156,33 @@
         width: 190px;
         height: 41px;
     }
+    .callback {
+        background-image: url("../images/blue-bg-services-no-grill.svg");
+        clip-path: unset;
+        -webkit-clip-path: unset;
+    }
     .services {
+        background-image: url("../images/blue-bg-services-no-grill.svg");
         margin-top: calc(-870px);
+        clip-path: unset;
+        -webkit-clip-path: unset;
     }
     .lift {
-        width:109px;
-        height:115px;
-        left:50px;
-        top:100px;
+        width: 109px;
+        height: 115px;
+        left: 50px;
+        top: 100px;
     }
     .services-content {
         padding-top: calc(450px + 10vw);
     }
     .container {
-        padding:unset;
+        padding: unset;
     }
 }
 
-
 /* iphone5 */
+
 @media (max-width: 330px) {
     .callback-form {
         width: 300px;
