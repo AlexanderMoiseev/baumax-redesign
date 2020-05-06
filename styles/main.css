@@ -1,8 +1,12 @@
-@import url('fix.css');
 
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:white;
 }
 
 body {
@@ -33,22 +37,24 @@ body {
 
 .mtop {
     margin-top: 8em;
-    /* padding-bottom: 10em; */
 }
 
-/* transition: all .33s ease; */
+.header-right-positioned {
+    margin-top: 45px;
+    float: right;
+    position: relative;
+    z-index: 4;
+}
 
 .company-phone {
-    margin-top: 45px;
     width: 195px;
     height: 41px;
     line-height: 41px;
     border-radius: 37.5px;
-    float: right;
     background: #005CA8;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
     color: #FFFFFF;
@@ -180,6 +186,10 @@ body {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     border: 1px solid #005CA8;
+}
+
+input {
+    -webkit-appearance: none;
 }
 
 *:focus {
