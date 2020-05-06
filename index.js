@@ -4,12 +4,6 @@ console.log('Hello from js');
 
 
 
-
-
-
-
-
-
 /** SITE JS CODE **/
 
 $(document).ready(function() {
@@ -46,28 +40,28 @@ $(document).ready(function() {
     *** STICKY NAVIGATION **
     ************************/
   
-    $('.js-section-profile').waypoint(function(direction) {
-      if (direction === 'down') {
-        //fadeout hide the nav
-        // nav must be fadeOut first in order to fadeIn
-        $('nav').fadeOut("fast", function() {
-          // then add the sticky class to the nav while is hidden
-          $('nav').addClass('sticky');
-        });
-        //show the nav again with the class sticky already added
-        $('nav').fadeIn("slow");
+    // $('.js-section-profile').waypoint(function(direction) {
+    //   if (direction === 'down') {
+    //     //fadeout hide the nav
+    //     // nav must be fadeOut first in order to fadeIn
+    //     $('nav').fadeOut("fast", function() {
+    //       // then add the sticky class to the nav while is hidden
+    //       $('nav').addClass('sticky');
+    //     });
+    //     //show the nav again with the class sticky already added
+    //     $('nav').fadeIn("slow");
   
-      } else {
-        //fadeout the nav again
-        $('nav').fadeOut("slow", function() {
-          //remove the sticky class
-          $('nav').removeClass('sticky');
-        });
-        $('nav').fadeIn();
-      }
-    }, {
-      offset: '0;'
-    });
+    //   } else {
+    //     //fadeout the nav again
+    //     $('nav').fadeOut("slow", function() {
+    //       //remove the sticky class
+    //       $('nav').removeClass('sticky');
+    //     });
+    //     $('nav').fadeIn();
+    //   }
+    // }, {
+    //   offset: '0;'
+    // });
   
   
     /***************************************
@@ -75,28 +69,28 @@ $(document).ready(function() {
     ***************************************/
   
     //-- go to section plans when click on Start training now button
-    $('.js-scroll-to-profile').click(function() {
-      $('html, body').animate(
-        {
-          scrollTop: $('.js-section-profile').offset().top
-        },
-        {
-          duration: 1000,
-          easing: 'linear'
-        })
-    });
+    // $('.js-scroll-to-profile').click(function() {
+    //   $('html, body').animate(
+    //     {
+    //       scrollTop: $('.js-section-profile').offset().top
+    //     },
+    //     {
+    //       duration: 1000,
+    //       easing: 'linear'
+    //     })
+    // });
   
     //-- go to footer when click on let's talk nav link
-    $('a[href="#contact"]').click(function() {
-      $('html, body').animate(
-        {
-          scrollTop: $('html, body').height()
-        },
-        {
-          duration: 1000,
-          easing: 'linear'
-        })
-    });
+    // $('a[href="#contact"]').click(function() {
+    //   $('html, body').animate(
+    //     {
+    //       scrollTop: $('html, body').height()
+    //     },
+    //     {
+    //       duration: 1000,
+    //       easing: 'linear'
+    //     })
+    // });
   
   
     /**************************
@@ -105,7 +99,7 @@ $(document).ready(function() {
     /* https://css-tricks.com/snippets/jquery/smooth-scrolling */
   
       $(function() {
-        $('a[href*="#"]:not([href="#"], [href="#contact"], [href*="#modal-project"])').click(function() {
+        $('a[href*="#"]:not([href="#"],  [href*="#modal-project"])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
