@@ -55,7 +55,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -101,7 +101,6 @@ body {
 
 .callback-content {
     padding-top: calc(250px + 5vw);
-    border: 3px solid red;
 }
 
 .advantages {
