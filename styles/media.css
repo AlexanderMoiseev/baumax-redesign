@@ -26,7 +26,6 @@
 }
 
 /* max-width: 1400px */
-
 @media (max-width: 1400px) {
     .main-text-wrapper {
         top: 140px;
@@ -190,18 +189,23 @@
     } */
 }
 
-/* iphone5 */
-
-@media (max-width: 330px) {
-    .callback-form {
-        width: 300px;
-    }
-}
-
 /* iphone6 */
-
 @media screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 667px) and (height: 375px) and (orientation: landscape) and (aspect-ratio: 667/375) {
     .services {
         margin-top: calc(-670px);
+    }
+}
+
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    .services-content {
+        padding-top: calc(550px);
+    }
+}
+
+/* iphone5 screen sizes */
+@media (max-width: 330px) {
+    .callback-form {
+        width: 300px;
     }
 }

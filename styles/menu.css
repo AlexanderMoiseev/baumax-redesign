@@ -43,13 +43,12 @@ html {
     display: block;
 }
 
-a:hover { cursor: crosshair !important; }
+a:hover { cursor: pointer !important; }
 
 .stop-scrolling {
   position: fixed;
   overflow: hidden;
 }
-
 
 
 .preloader {
@@ -510,7 +509,7 @@ z-index: 20;
   background-color: #39B54A;;
   bottom: 0;
   left: 10%;
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 .scroll-down-arrow {
