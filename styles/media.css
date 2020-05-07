@@ -234,26 +234,33 @@
     }
 }
 
-@media screen and (max-width: 640px) and (max-height: 900px) and (min-width: 600px) and (min-height: 360px)
-/* and (min-height: 400px) */
 
-    {
-    /* .services-content {
-        padding-top: calc(330px + 100vw );
-    }  */
-    .services {
-        /* display:none; */
-        margin-top: calc(-370px - 50vw);
+
+    @media screen and (max-width: 700px) and (max-height: 900px) and
+                    (min-width: 578px) and (min-height: 360px)
+        {
+        /* .services-content {
+            padding-top: calc(330px + 100vw );
+        }  */
+        .services {
+            /* display:none; */
+            margin-top: calc(-370px - 50vw);
+        }
     }
-}
 
-/* iphone6 */
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 667px) and (height: 375px) and (orientation: landscape) and (aspect-ratio: 667/375) {
+
+/* iphone6 landscape*/
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) and 
+(width: 667px) and (height: 375px) 
+and (orientation: landscape) and 
+(aspect-ratio: 667/375) {
     .services {
         margin-top: calc(-670px);
     }
 }
+
+
 
 /* iphone5 */
 

@@ -378,7 +378,8 @@ z-index: 20;
 
 .social-nav {
   position: absolute;
-  bottom: 0.5em;
+  top: 20px;
+  /* bottom: 50px; */
   text-align: center;
   width: 100%;
 }
