@@ -3,10 +3,12 @@
     src: local('Rubik Bold'), local('Rubik-Bold'), url('Rubikbold.woff2') format('woff2'), url('Rubikbold.woff') format('woff'), url('Rubikbold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Rubik';
     src: local('Rubik Black'), local('Rubik-Black'), url('Rubikblack.woff2') format('woff2'), url('Rubikblack.woff') format('woff'), url('Rubikblack.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
