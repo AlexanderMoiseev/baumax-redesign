@@ -84,6 +84,10 @@
         /* top: 90px; */
         right: 40px;
     }
+    .main-nav ul li a {
+        font-size: 2em;
+        letter-spacing: 2px; 
+    }
 }
 
 /* max-width: 700px */
@@ -193,6 +197,14 @@
     }
     .container {
         padding: unset;
+    }
+}
+
+
+@media (max-width: 620px) {
+    .main-nav ul li a {
+        font-size: 1.5em;
+        letter-spacing: 2px; 
     }
 }
 
