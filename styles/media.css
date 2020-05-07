@@ -104,11 +104,11 @@
         left: 9px;
     }
     .main-text-wrapper {
-        top: 90px;
+        top: 80px;
         right: 30px;
     }
     .company-phone {
-        margin-top: 25px;
+        margin-top: 12px;
         width: 133px;
         height: 29px;
         font-weight: 500;
@@ -120,7 +120,8 @@
         margin-right: 15%;
     }
     .menu-button-container {
-        top: 23px;
+        top: 9px;
+        right: 3%;
     }
     .main {
         transform: translateX(-25px);
