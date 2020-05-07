@@ -31,7 +31,6 @@
     /* .header-right-positioned {
         margin-right: 17%;
     } */
-
     .main-text-wrapper {
         top: 140px;
     }
@@ -74,12 +73,16 @@
 
 @media (max-width: 1000px) {
     .main-text2 {
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 38px;
+        line-height: 44px;
     }
     .main-text {
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .main-text-wrapper {
+        /* top: 90px; */
+        right: 40px;
     }
 }
 
@@ -88,7 +91,7 @@
 @media (max-width: 700px) {
     .main-text2 {
         font-size: 24px;
-        line-height: 28px;
+        line-height: 36px;
     }
     .main-text {
         font-size: 12px;
@@ -113,7 +116,6 @@
         line-height: 29px;
         background: #005CA8;
     }
-    
     .header-right-positioned {
         margin-right: 15%;
     }
@@ -122,6 +124,7 @@
     }
     .main {
         transform: translateX(-25px);
+        transition: transform 3.05s ease-in-out;
         /* background: url("../images/mobile-main.svg"); */
         background-repeat: no-repeat;
         /* min-height: 700px; */
@@ -193,30 +196,42 @@
 }
 
 @media (max-width: 420px) {
-     .main-text2 {
+    .main-text2 {
         font-size: 22px;
-        /* line-height: 20px; */
+        line-height: 24px;
     }
-   
+    .main-text {
+        font-size: 12px;
+        line-height: 24px;
+    }
     .main-text-wrapper {
-        top:75px;
+        top: 65px;
         right: 5px;
     }
 }
+
 @media (max-width: 321px) {
     .main-text2 {
-       font-size: 18px;
-       /* line-height: 20px; */
-   }
+        line-height: 24px;
+        font-size: 18px;
+    }
+    .main-text {
+        line-height: 24px;
+        font-size: 10px;
+    }
 }
 
-@media screen and (max-width: 700px) and (max-height: 950px) {
+@media screen and (max-width: 640px) and (max-height: 900px) and (min-width: 600px) and (min-height: 360px)
+/* and (min-height: 400px) */
+
+    {
     /* .services-content {
-        padding-top: calc(550px );
-    } */
-    /* .services {
-        margin-top: calc(-670px);
-    } */
+        padding-top: calc(330px + 100vw );
+    }  */
+    .services {
+        /* display:none; */
+        margin-top: calc(-370px - 50vw);
+    }
 }
 
 /* iphone6 */

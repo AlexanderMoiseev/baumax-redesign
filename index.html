@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/icons.css">
     <link rel="stylesheet" type="text/css" href="./styles/map.css">
     <link rel="stylesheet" type="text/css" href="./styles/media.css">
-
+    <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
 
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=c88500c4-14bd-41a1-9705-092849de5317"
         type="text/javascript"></script>
@@ -41,7 +41,7 @@
 
                 .st1 {
                     enable-background: new;
-                }
+                } 
 
                 .st2 {
                     fill: #009444;
@@ -114,16 +114,17 @@
             <a href="tel:+74999649090" class="company-phone header-right-positioned">+7 499 964 90 90</a>
 
             <!-- <div class="company-phone">+7 499 964 90 90</div> -->
-            <div class="main-text-wrapper">
+            <div class="main-text-wrapper wow bounceInRight">
                 <h2 class="main-text">оптовые поставки</h2>
                 <h1 class="main-text2">строительных<br>материалов</h1>
                 <h2 class="main-text">на территории цфо</h2>
             </div>
         </div>
 
-        <div class="main"></div>
+        <div class="main wow fadeInLeft" data-wow-duration="2s" ></div>
+<!-- <div class="main" ></div> -->
 
-        <a href="#" class="logo"></a>
+        <a href="#" class="logo wow bounceInRight"></a>
 
 
         <div class="yellow-clip">
@@ -131,9 +132,9 @@
 
         <div class="services">
             <div class="container">
-                <div class="services-content">
+                <div class="services-content" ></div>
                     <div id="services" class="services-text">мы поставляем</div>
-                    <div class="icons-container">
+                    <div class="icons-container wow bounceInUp">
                         <div class="service-icon-container">
                             <div class="service-icon block-icon">
                             </div>
@@ -175,7 +176,7 @@
         </div>
 
 
-        <div class="advantages" id="advantages">
+        <div class="advantages wow bounceInUp" id="advantages">
             <div class="advantages-container">
                 <div class="advantages-text">наши преимущества</div>
                 <div class="icons-container">
@@ -215,7 +216,7 @@
 
 
 
-        <div  class="callback" >
+        <div  class="callback">
             <div class="container">
                 <div class="callback-content">
                     <div class="services-text">заинтересовали<br>наши преимущества?</div>
@@ -224,7 +225,7 @@
                         для первого шага к сотрудничеству
                     </p>
 
-                    <div class="callback-form">
+                    <div class="callback-form wow bounce">
                         <div class="lift"> </div>
                         <form method="POST" action="https://formspree.io/moiseevalexandr1@gmail.com">
                             <div class="input-container">
@@ -248,6 +249,13 @@
 
         <!-- <div class="test">Block after the blue b22g </div> -->
         <div id="map"></div>
+
+
+        <script src="wow-animation/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
 </body>
 
 </html>
