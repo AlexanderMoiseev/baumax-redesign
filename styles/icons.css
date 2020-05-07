@@ -118,7 +118,17 @@
 
 
 
-@media (max-width: 1400px) {
-    
-  
+.fb-icon {
+    background-image: url("../images/facebook.svg");
+    background-repeat: no-repeat;
+    /* padding-bottom: 20em; */
+    /* width: 100px;
+    height:100px; */
+
+    width: 2.5em;
+    height: 2.5em;
+    /* fill: #ffffff; */
+    transition: all .25s ease;
+
+    /* transform: translateY(calc(-120px - 10vw)); */
 }
