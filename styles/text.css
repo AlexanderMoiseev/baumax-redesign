@@ -7,8 +7,6 @@
 }
 
 .main-text {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: 900;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -19,8 +17,6 @@
 }
 
 .main-text2 {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: 900;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -31,8 +27,6 @@
 }
 
 .services-text {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 90px;
@@ -44,8 +38,6 @@
 }
 
 .services-desc {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
@@ -56,8 +48,6 @@
 }
 
 .advantages-text {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 90px;
@@ -68,8 +58,6 @@
 }
 
 .advantages-desc {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 18px;
@@ -81,8 +69,6 @@
 .contact-text {
     margin-top: 40px;
     margin-bottom: 30px;
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
@@ -92,8 +78,6 @@
 }
 
 .phone-text {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
@@ -103,8 +87,6 @@
 }
 
 .send-text {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
@@ -114,8 +96,6 @@
 }
 
 .phone-placeholder {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
@@ -125,7 +105,6 @@
 }
 
 .phone-number {
-    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
@@ -135,8 +114,6 @@
 }
 
 ::placeholder {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
