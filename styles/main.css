@@ -100,7 +100,6 @@ body {
     padding-bottom: 10em;
     position: relative;
     z-index: 1;
-    /* transform: translateY(calc(-120px - 10vw)); */
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
 }
 
