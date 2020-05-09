@@ -1,35 +1,9 @@
-.st0{
-    fill:#FFFFFF;
-    stroke:#39B54A;
-    stroke-width:6;
-    stroke-miterlimit:10;
-    } 
-
-.st1{
-    fill:#009444;
-    } 
-    
-.st2{
-    font-family:ScriptMTBold;
-    } 
-.st3{
-    font-size:37.2682px;
-    }
-
-
 /********************
 ** BASIC SETUP  **
 *********************/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 html {
-  color: #555;
-  font-family: 'roboto', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -51,40 +25,6 @@ a:hover { cursor: pointer !important; }
 }
 
 
-.preloader {
-  background-color: #ffffff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  opacity: 1;
-  transition: all 1.25s;
-}
-
-
- .preloader .logo {
-  height: 8em;
-  width: 8em;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  fill: #fff;
-  animation: spin 1s infinite;
-  opacity: 1;
-}
-
-.loaded .preloader  {
-  height: 0;
-  opacity: 0;
-}
-
-.loaded .preloader .logo {
-  opacity: 0;
-  display: none;
-  animation: none;
-}
 
 
 
@@ -93,95 +33,14 @@ a:hover { cursor: pointer !important; }
   100% { transform:translate3d(-50%, -50%, 0) rotate(360deg) }
 }
 
-
-
-/************************
-** REUSABLE COMPONENTS **
-************************/
-
-/****** LAYOUT STYLES ******/
-
-.row {
-  width: 90%;
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-section, footer {
-  padding: 4em 0;
-}
-
-/****** TYPOGRAPHY STYLES ******/
-
-@font-face {
-  font-family: 'nexa_boldregular';
-  src: url('fonts/Nexa_Free_Bold-webfont.eot');
-  src: url('fonts/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/Nexa_Free_Bold-webfont.woff2') format('woff2'),
-       url('fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
-       url('fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
-       url('fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1 {
-  font-size: 4em;
-  font-family:'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h2 {
-  font-size: 4em;
-  font-family:'roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h3 {
-  font-size: 2em;
-  font-family:'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h4 {
-  font-size: 1.1em;
-  font-family:'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h5 {
-  font-size: .9em;
-  font-family:'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h6 {
-  font-size: 5em;
-  font-family:'nexa_boldregular', 'roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-p {
-  font-size: 1em;
-  font-family:'roboto', 'Helvetica', 'Arial', sans-serif;
-  line-height: 150%;
-  font-weight: 400;
-}
-
 /************************
 **   HEADER SECTION   **
 ************************/
-
-/* header {
-  position: relative;
-  height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-  top: 0;
-  left: 0;
-  background-image: url('../img/Hero-bg.jpg');
-
-} */
 
 nav {
   position: relative;
   height: 0px;
 }
-
 
 .logo-menu-open {
   fill: #FFF;
@@ -468,38 +327,7 @@ z-index: 20;
   animation-delay: 1.4s;
 }
 
-
-
-
-/********* HERO TEXT BOX **********/
-
-.hero-text-box {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-}
-
-.hero-main-heading {
-  text-transform: uppercase;
-  color: #39B54A;
-  letter-spacing: 12px;
-}
-
-.hero-main-heading span { color: #FFF; }
-
-.hero-sub-heading {
-  color: #FFF;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-}
-
-.hero-sub-heading span { color: #39B54A; }
-
-
-
 /********* SCROLL DOWN BUTTON **********/
-
 /*** Bouncing Arrow animation ***/
 
 @keyframes bounce {
