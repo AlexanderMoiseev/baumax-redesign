@@ -37,6 +37,9 @@ body {
     z-index: 2;
 }
 
+.send-button[disabled] {
+    opacity: 0.7;
+}
 .mtop {
     margin-top: 8em;
 }
